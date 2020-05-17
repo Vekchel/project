@@ -1,0 +1,92 @@
+.promo {
+    width: 100%;
+    min-height: 157px;
+    background-color: #769ce7;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    &__title {
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: 700;
+        text-align: center;
+        margin-top: 20px;
+    }
+    &__subtitle {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 60px;
+        margin-bottom: 20px;
+        height: 25px;
+    }
+    &__item {
+        width: 150px;
+        background-color: rgba(7, 0, 0, 0.1);
+        color: #ffffff;
+        font-size: 19px;
+        font-weight: 700;
+        border: none;
+
+    }
+    &__logo {
+        width: 300px;
+        height: 129px;
+        margin-top: 14px;
+        margin-left: 32px;
+        img {
+            width: 100%;
+        }
+    }
+    &__block-right {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    &__add {
+        background-color: rgb(90, 117, 206) ;
+        width: 204px;
+        height: 45px;
+        margin: 20px 40px 5px;
+        text-align: center;
+        color: #ffffff;
+        font-size: 15px;
+        font-weight: 700;
+        border: 2px solid #393535;
+        border-radius: 10px;
+        &:hover {
+            box-shadow: 3px 3px 20px #094be0;
+        }
+    }
+    &__account {
+        display: flex;
+        justify-content: space-between;
+        width: 190px;
+        cursor: pointer;
+    }
+    &__account_center {
+        display: block;
+        width: 150px;
+        background-color: rgba(7, 0, 0, 0.1);
+        text-align: center;
+        border-radius: 3px;
+        &:hover {
+            text-decoration: none;
+            background-color: rgba(7, 0, 0, 0.5);
+        }
+    }
+    &__account_right {
+        margin-bottom: 10px;
+    }
+    &__account-title {
+        color: #ffffff;
+        font-size: 19px;
+        font-weight: 700;
+    }
+}

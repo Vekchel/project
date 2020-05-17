@@ -1,0 +1,30 @@
+.moscow {
+    min-height: 130px;
+    padding: 30px 60px;
+    margin-top: 157px;
+    &__title {
+        color: #000000;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 30.97px;
+    }
+    &__subtitle {
+        color: #000000;
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 30.97px;
+        &_a {
+            color: #094be0;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 30.97px;
+            text-decoration: underline;
+            transition: 0.5s all;
+            &:hover {
+                color: #094be0;
+                font-size: 18px;
+
+            }
+        }
+    }
+}

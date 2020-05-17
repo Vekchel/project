@@ -1,0 +1,87 @@
+.info {
+  padding-bottom: 40px;
+}
+
+.info__flex {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info__way {
+  margin-left: 50px;
+  color: #000000;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.info__way span {
+  color: #114ada;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.info__block {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.info__block_title {
+  color: #000000;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.info__block_metro {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.info__block_metro p {
+  margin-bottom: 0;
+}
+
+.info__block_metro img {
+  display: block;
+  width: 25px;
+  margin-right: 7px;
+}
+
+.info__block_text {
+  color: #000000;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.info__block_price {
+  margin-top: 20px;
+  color: red;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.info__block_btn {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 185px;
+  height: 40px;
+  background-color: #90be45;
+  border-radius: 10px;
+  text-align: center;
+  color: #fafafa;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.info__block_btn:active, .info__block_btn :focus {
+  background-color: #374b16;
+}
+
+.info__map {
+  width: 800px;
+  height: 400px;
+}

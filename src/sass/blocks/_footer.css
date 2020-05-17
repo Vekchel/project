@@ -1,0 +1,45 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  min-height: 180px;
+  background-color: #769ce7;
+  padding: 40px 40px 10px 40px;
+}
+
+.footer__block_logo {
+  width: 530px;
+  height: 230px;
+}
+
+.footer__block_logo img {
+  width: 100%;
+}
+
+.footer__block_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.footer__block_right img {
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.footer__link {
+  display: block;
+  color: #f7f1f1;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.footer__adress, .footer__phone, .footer__email {
+  display: flex;
+  justify-content: flex-start;
+  color: #f7f1f1;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
