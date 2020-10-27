@@ -1,29 +1,37 @@
 
 body {
-	background: #787873;
+	background: #b6b6b2;
 	width: 376px;
 	margin: 0;
 	padding: 0;
 }
 h1 {
+	font-family: PT Serif;
 	text-align: center;
 }
 h2 {
-	text-align: center;
-	color: rgb(36, 4, 124);
+	font-family: PT Serif;
+	text-align: left;
+	color: black;
+	margin: 0;
+	padding: 0;
+	margin-left: 20px;
 }
 p {
+	font-family: PT Serif;
 	text-align: justify;
-	padding: 0 10px;
+	margin-top: 3px;
+	padding: 0 20px;
 }
  #lgbt {
-margin-top: 90px;
+	margin-left: 20px;
+    margin-top: 100px;
 }
 
 #frame {
 	width: 376px;
 	margin: 0 auto;
-	background: rgba(190, 226, 247, 0.5);
+	background: white;
 	display: table;
 	position: relative;
 }
